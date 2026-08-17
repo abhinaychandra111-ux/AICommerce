@@ -1,16 +1,116 @@
-# React + Vite
+# AICommerce – Full-Stack E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AICommerce is a full-stack e-commerce web application that provides users with a complete online shopping experience.
 
-Currently, two official plugins are available:
+Users can create accounts, browse and search products, manage their shopping cart, save delivery addresses, complete checkout, select a simulated payment method, place orders, and view their order history.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### Authentication
+- User registration
+- User login
+- JWT authentication
+- Protected routes
+- Logout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Products
+- Product listing
+- Product search
+- Category filtering
+- Price sorting
+- Rating-based sorting
+- Product stock management
 
-## Expanding the ESLint configuration
+### Shopping Cart
+- Add products to cart
+- Update product quantity
+- Remove products
+- Cart total calculation
+- User-specific cart
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Checkout
+- Delivery address management
+- Saved addresses
+- Order summary
+- Delivery fee
+- Platform fee
+- Handling fee
+- Coupon discount support
+
+### Payment
+- Cash on Delivery
+- UPI payment simulation
+- Credit/Debit Card simulation
+- Net Banking simulation
+
+> Payment methods are simulated and no real payment gateway is connected.
+
+### Orders
+- Place orders
+- Unique order ID
+- Order calculation
+- Stock management
+- Order success page
+- Order history
+- View previous orders
+
+### Profile
+- View profile
+- Edit profile
+- Saved addresses
+- Add address
+- Edit address
+- Delete address
+- Set default address
+
+## Technologies Used
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- Vite
+- Lucide React
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcrypt
+- CORS
+- dotenv
+
+## Project Structure
+
+```text
+AICommerce/
+│
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── seed.js
+│   ├── server.js
+│   └── package.json
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/
+├── package.json
+├── vite.config.js
+├── .gitignore
+└── README.md
