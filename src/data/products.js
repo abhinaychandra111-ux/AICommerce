@@ -1,0 +1,98 @@
+export const products = [
+  {
+    id: 1,
+    name: "Nova X1 Smartphone",
+    category: "Electronics",
+    price: 24999,
+    oldPrice: 29999,
+    rating: 4.8,
+    reviews: 124,
+    image:
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    badge: "Best Seller",
+  },
+  {
+    id: 2,
+    name: "UltraBass Wireless Headphones",
+    category: "Audio",
+    price: 3999,
+    oldPrice: 5999,
+    rating: 4.6,
+    reviews: 89,
+    image:
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+    badge: "Popular",
+  },
+  {
+    id: 3,
+    name: "SmartFit Pro Watch",
+    category: "Wearables",
+    price: 5499,
+    oldPrice: 6999,
+    rating: 4.7,
+    reviews: 76,
+    image:
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80",
+    badge: "New",
+  },
+  {
+    id: 4,
+    name: "ProBook Air Laptop",
+    category: "Computers",
+    price: 64999,
+    oldPrice: 74999,
+    rating: 4.9,
+    reviews: 203,
+    image:
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+    badge: "Top Rated",
+  },
+  {
+    id: 5,
+    name: "Mechanical RGB Keyboard",
+    category: "Accessories",
+    price: 3499,
+    oldPrice: 4499,
+    rating: 4.5,
+    reviews: 61,
+    image:
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+    badge: "Hot",
+  },
+  {
+    id: 6,
+    name: "Precision Wireless Mouse",
+    category: "Accessories",
+    price: 1499,
+    oldPrice: 1999,
+    rating: 4.4,
+    reviews: 48,
+    image:
+      "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+    badge: "Deal",
+  },
+  {
+    id: 7,
+    name: "Vision 4K Monitor",
+    category: "Computers",
+    price: 28999,
+    oldPrice: 34999,
+    rating: 4.8,
+    reviews: 92,
+    image:
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+    badge: "Featured",
+  },
+  {
+    id: 8,
+    name: "Portable Power Bank",
+    category: "Accessories",
+    price: 1999,
+    oldPrice: 2499,
+    rating: 4.3,
+    reviews: 37,
+    image:
+      "https://images.unsplash.com/photo-1609592424270-0c7b8c7d9d4a?auto=format&fit=crop&w=800&q=80",
+    badge: "Value Pick",
+  },
+];
