@@ -114,3 +114,123 @@ AICommerce/
 ├── vite.config.js
 ├── .gitignore
 └── README.md
+
+
+Installation
+Clone the repository
+git clone https://github.com/abhinaychandra111-ux/AICommerce.git
+Install frontend dependencies
+npm install
+Install backend dependencies
+cd server
+npm install
+Environment Variables
+
+Create a .env file inside the server directory.
+
+Example:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+Do not commit the .env file to GitHub.
+
+Running the Application
+Start Backend
+
+From the server directory:
+
+npm run dev
+
+The backend runs on:
+
+http://localhost:5000
+Start Frontend
+
+From the project root:
+
+npm run dev
+
+The frontend normally runs on:
+
+http://localhost:5173
+API Endpoints
+Authentication
+POST /api/auth/register
+POST /api/auth/login
+GET  /api/auth/me
+PUT  /api/auth/profile
+Addresses
+GET    /api/auth/addresses
+POST   /api/auth/addresses
+PUT    /api/auth/addresses/:addressId
+DELETE /api/auth/addresses/:addressId
+PUT    /api/auth/addresses/:addressId/default
+Products
+GET    /api/products
+GET    /api/products/:id
+POST   /api/products
+PUT    /api/products/:id
+DELETE /api/products/:id
+Orders
+POST /api/orders
+GET  /api/orders/my-orders
+GET  /api/orders/:id
+Application Flow
+Register / Login
+       ↓
+   Dashboard
+       ↓
+ Browse Products
+       ↓
+    Add Cart
+       ↓
+    Checkout
+       ↓
+ Select Address
+       ↓
+ Select Payment
+       ↓
+   Place Order
+       ↓
+ Order Success
+       ↓
+   My Orders
+Security
+JWT-based authentication
+Password hashing
+Protected API routes
+User-specific order access
+User-specific cart management
+Environment variables for sensitive configuration
+Future Enhancements
+Real payment gateway integration
+Admin dashboard
+Product reviews and comments
+Wishlist
+AI-based product recommendations
+Order tracking
+Email notifications
+Product image upload
+Advanced analytics
+Author
+
+Abhinay Chandra
+
+GitHub:
+
+https://github.com/abhinaychandra111-ux
+
+
+
+### Step 2 — Save and push README
+
+
+After saving `README.md`:
+
+
+```powershell
+git add README.md
+git commit -m "Improve project documentation"
+git push
